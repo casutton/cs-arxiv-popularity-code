@@ -112,7 +112,7 @@ def main ():
         art['title_dist'] = title_dist
 
         if arxiv_art is not None:
-            art['closest_arxiv'] = list(arxiv_art["id"])
+            art['closest_arxiv'] = [ arxiv_art["id"] ]
         else:
             art['closest_arxiv'] = None
 
@@ -120,6 +120,9 @@ def main ():
             all_close.append(art)
         else:
             all_far.append(art)
+
+        # print art
+        # sys.exit(1)
 
         nart += 1
         if nart % 500 == 0:
@@ -140,11 +143,11 @@ def main ():
 
     ## And write to disk
 
-    matched_file = args.prefix + "_matched.json"
+    matched_file = args.prefix + "matched.json"
     with open (matched_file, 'w') as f:
             json.dump (matched_sample, f, indent=2)
 
-    close_file = args.prefix + "_close.json"
+    close_file = args.prefix + "close.json"
     with open (close_file, 'w') as f:
             json.dump (close_sample, f, indent=2)
 
