@@ -7,7 +7,7 @@ This directory generates all of the results from the paper
   https://arxiv.org/abs/1710.05225
   http://groups.inf.ed.ac.uk/cup/csarxiv/
 
-The main results are generated ina series of four Jupyter notebooks. Executing them all in sequence will download the latest version of the data
+The main results are generated in a series of four Jupyter notebooks. Executing them all in sequence will download the latest version of the data
 and regenerate all of the results. The notebooks call a set of scripts, which are in the subdirectories.
 
  * [0. Download and Preprocess Data.ipynb](https://github.com/casutton/cs-arxiv-popularity-code/blob/master/0.%20Download%20and%20Preprocess%20Data.ipynb)
