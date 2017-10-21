@@ -41,6 +41,6 @@ to the repo are the figures that are used in the current version of the paper.
 
 # Where to Start
 
-* If you want to download all of the most recent papers and regenerate the entire analysis, run each of the Jupyter notebooks fully in numerical order.
+* If you want to download all of the papers that are currently on arXiv and DBLP (note: this is several GB of data) and regenerate the entire analysis from the paper, run each of the Jupyter notebooks fully in numerical order. This will overwrite the files in the `generated/` and `figures/` directory.
 * If you want to explore the precise version of the data that we used in the paper, then fully execute [3. Preprint Percentage Analysis.ipynb](https://github.com/casutton/cs-arxiv-popularity-code/blob/master/3.%20Preprint%20Percentage%20Analysis.ipynb),
 which will load all of the data from the `generated` directory, and add your analysis at the end. It's OK to execute notebook 2 if you want, but do not execute the other notebooks, as these will blow away the data in the `generated/` directory.
