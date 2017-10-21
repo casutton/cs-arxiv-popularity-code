@@ -37,6 +37,7 @@ To summarize what all the subdirectories are:
 to the repo are the figures that are used in the current version of the paper.
 * `generated/`: Citation data used in the paper. Everything in this directory is automatically generated. The version of the directory that is committed
 to the repo are the figures that are used in the current version of the paper.
+* `iclr2017/`: This directory contains a manually-saved dump of the OpenReview page for the ICLR 2017 conference. This is just to document the statement that we made in the intorduction about the number of submissions to ICLR 2017.
 
 # Where to Start
 
