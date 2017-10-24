@@ -35,8 +35,7 @@ To summarize what all the subdirectories are:
    believed that the titles were the same, `a_match` whether the authors were the same, and `p_match` whether the papers as a whole were the same
 * `figures/`: Figures used in the paper. Everything in this directory is automatically generated. The version of the directory that is committed
 to the repo are the figures that are used in the current version of the paper.
-* `generated/`: Citation data used in the paper. Everything in this directory is automatically generated. The version of the directory that is committed
-to the repo are the figures that are used in the current version of the paper.
+* `generated/`: Citation data used in the paper. Everything in this directory is automatically generated. The version of the generated data that was used for our paper can be obtained [from our paper's web site](https://github.com/casutton/cs-arxiv-popularity-code).
 * `iclr2017/`: This directory contains a manually-saved dump of the OpenReview page for the ICLR 2017 conference. This is just to document the statement that we made in the introduction of our paper about the number of submissions to ICLR 2017.
 
 # Where to Start
